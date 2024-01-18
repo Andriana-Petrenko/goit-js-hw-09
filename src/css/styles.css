@@ -1,20 +1,19 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
+
 @import url('./reset.css');
-@import url('./vite-promo.css');
-@import url('./header.css');
+@import url('./1-gallery.css');
+@import url('./2-form.css');
+@import url('simplelightbox/dist/simple-lightbox.min.css');
+
+*{
+  box-sizing:  border-box;}
 
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   font-weight: 400;
-
-  color: #242424;
+  color: #2E2F42;
+  letter-spacing: 0.04em;
   background-color: rgba(255, 255, 255, 0.87);
 
   font-synthesis: none;
