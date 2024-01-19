@@ -6,5 +6,5 @@ import{S as a}from"./vendor-c9def49e.js";const t=[{preview:"https://cdn.pixabay.
       alt='${i}'
     />
   </a>
-</li>`).join("");e.innerHTML=n;let c=new a(".gallery a",{captionType:"attr",captionsData:"alt",captionsPosition:"bottom",captionDelay:"250"});c.on("show.simplelightbox");
-//# sourceMappingURL=1-gallery-16bf5d14.js.map
+</li>`).join("");e.innerHTML=n;let c=new a(".gallery a",{captionType:"attr",captionsData:"alt",captionsPosition:"bottom",captionDelay:250});c.on("show.simplelightbox");
+//# sourceMappingURL=1-gallery-a96abb43.js.map
