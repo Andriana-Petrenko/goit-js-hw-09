@@ -82,7 +82,6 @@ const markup = images
 list.innerHTML = markup;
 
 let gallery = new SimpleLightbox('.gallery a',{
-    captionType: 'attr',
     captionsData: 'alt',
     captionsPosition: 'bottom',
     captionDelay: 250,
